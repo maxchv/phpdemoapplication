@@ -5,6 +5,7 @@
 <?php
 try {
     $db = new PDO("mysql:host=localhost;port=54386", "azure", "6#vWHD_$");
+    echo "Connected";
 } catch (PDOException $ex) {
     echo $ex->getMessage();
 }
