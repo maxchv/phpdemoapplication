@@ -4,7 +4,7 @@
 
 <?php
 try {
-    $db = new PDO("mysql:host=localhost;port=49175", "azure", "");
+    $db = new PDO("mysql:host=localhost;port=54386", "azure", "6#vWHD_$");
 } catch (PDOException $ex) {
     echo $ex->getMessage();
 }
